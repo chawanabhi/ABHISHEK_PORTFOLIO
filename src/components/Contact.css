@@ -1,0 +1,48 @@
+.contactContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -20%;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactHeading {
+      font-size: 45px;
+  }
+  .points {
+    font-size: 32px;
+    margin: 16px;
+  }
+  
+  .points > span {
+    font-size: 40px;
+    font-weight: 600;
+  }
+  
+  .points > a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .points > a:hover {
+    text-decoration: underline;
+    color: var(--second-tone);
+  }
+  .socialIcons {
+      margin-top: 32px;
+  }
+  .socialIcons > a {
+    color: inherit;
+    margin: 32px;
+  }
+  .socialIcons > a:hover {
+    color: var(--second-tone);
+  }
+  
+  @media screen and (max-width: 640px) {
+    .socialIcons > a {
+      margin: 20px;
+    }
+    .points {
+      font-size: 24px;
+      /* margin: 16px; */
+    }
+  }

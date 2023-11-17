@@ -1,0 +1,87 @@
+.headText {
+    font-size: 45px;
+}
+
+.about {
+    font-size: 28px;
+}
+
+.aboutContainer {
+    padding: 0 10%;
+}
+
+.Education {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--third-tone);
+    padding: 8px 32px;
+    border-radius: 8px;
+    margin-bottom: 32px;
+    box-shadow: 2px 2px 2px 2px #40404010;
+}
+
+.expTitle{
+    font-size: 28px;
+    margin-top: 16px;
+}
+
+.iconBox {
+    margin: 38px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.iconBox > img {
+    height: 60px;
+    width: 60px;
+}
+
+
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.details {
+    font-size: 18px;
+    font-family: 'Assistant', sans-serif;
+}
+
+.horLine {
+    display: none;
+    width: 100%;
+    border: 1px solid var(--switch-color);
+}
+
+
+@media screen and (max-width: 640px) {
+    .headText{
+        font-size: 32px;
+    }
+    .about {
+        font-size: 20px;
+    }
+    .iconBox {
+        width: 60px;
+    }
+    .iconBox >img {
+        height: 45px;
+        width: 45px;
+    }
+    .skillContainer {
+        justify-content: space-around;
+    }
+    .aboutContainer {
+        padding: 0;
+    }
+    .experienceContainer {
+        padding: 4px 16px;
+    }
+    .expTitle {
+        font-size: 24px;
+    }
+    .horLine {
+        display: inline;
+    }
+}

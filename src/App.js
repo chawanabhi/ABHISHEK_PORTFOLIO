@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Menu from './components/Menu';
+import { Outlet } from 'react-router-dom';
 
 function App() {
+  const [menuExpanded, setMenuExpanded] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Header menuExpanded={menuExpanded} setMenuExpanded={setMenuExpanded} />
+      {menuExpanded && <Menu setMenuExpanded={setMenuExpanded}/>}
+      <Outlet />
+      <Footer />
     </div>
   );
 }
