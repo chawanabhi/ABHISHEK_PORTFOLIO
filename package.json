@@ -1,6 +1,7 @@
+
 {
-  "homepage": "/portfolio",
-  
+  "homepage": "https://chawanabhi.github.ioABHISHEK_PORTFOLIO",
+  "name": "abhiportfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
