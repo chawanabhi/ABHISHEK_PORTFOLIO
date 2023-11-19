@@ -1,7 +1,6 @@
-
 {
-  "homepage": "/portfolio",
-  
+  "homepage": "https://chawanabh.github.io/portfolio",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
