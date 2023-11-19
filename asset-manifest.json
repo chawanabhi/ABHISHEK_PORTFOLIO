@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ABHISHEK_PORTFOLIO/static/css/main.e490cd5d.css",
+    "main.js": "/ABHISHEK_PORTFOLIO/static/js/main.a9d64688.js",
+    "static/js/787.fa9cb370.chunk.js": "/ABHISHEK_PORTFOLIO/static/js/787.fa9cb370.chunk.js",
+    "static/media/Abhishek-java-Resume.pdf": "/ABHISHEK_PORTFOLIO/static/media/Abhishek-java-Resume.b0bed1ae420ebf23e0c7.pdf",
+    "index.html": "/ABHISHEK_PORTFOLIO/index.html",
+    "main.e490cd5d.css.map": "/ABHISHEK_PORTFOLIO/static/css/main.e490cd5d.css.map",
+    "main.a9d64688.js.map": "/ABHISHEK_PORTFOLIO/static/js/main.a9d64688.js.map",
+    "787.fa9cb370.chunk.js.map": "/ABHISHEK_PORTFOLIO/static/js/787.fa9cb370.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e490cd5d.css",
+    "static/js/main.a9d64688.js"
+  ]
+}
