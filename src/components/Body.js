@@ -1,6 +1,6 @@
 import dp from '../assets/cross-light.png'
 import { Link } from 'react-router-dom';
-import resume from '../assets/Abhishek-java-Resume.pdf';
+import resume from '../assets/Abhishek_Java_Resume_Updated.docx';
 const Body = () => {
     return (
       <div className="bodyContainer">
